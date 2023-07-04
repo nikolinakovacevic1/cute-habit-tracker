@@ -1,0 +1,63 @@
+@media (max-width: 38em) {
+  body {
+    font-size: 50%;
+  }
+
+  #calendarHeading {
+    font-size: 1rem;
+  }
+  #calendarDiv {
+    width: 70vh;
+  }
+  #calendarContent {
+    padding: 1rem;
+  }
+
+  .day {
+    width: 2.4rem;
+    font-size: 1rem;
+    padding: 1.4rem;
+  }
+}
+
+@media (max-width: 25em) {
+  #calendarContent {
+    padding: 1rem;
+  }
+
+  .day {
+    width: 1.6rem;
+    font-size: 0.8rem;
+    padding: 1.2rem;
+  }
+  #calendarContent {
+    padding: 0.4rem;
+  }
+
+  #calendarDiv {
+    width: 50vh;
+  }
+
+  .day {
+    width: 1.6rem;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 15.5em) {
+  .day {
+    width: 1rem;
+  }
+
+  #calendarDiv {
+    width: 36vh;
+  }
+  #calendarHeading {
+    font-size: 0.8rem;
+  }
+
+  #subtitle {
+    font-size: 1.4rem;
+  }
+}
